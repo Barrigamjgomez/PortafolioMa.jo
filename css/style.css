@@ -12,6 +12,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.title-responsive{
+  font-size: 20%,
+}
 .pieces {
 	margin:none;
 }
@@ -543,6 +546,11 @@ footer{
 
 .home-movile{
 		display: none;
+    height:100vh;
+    background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .about-movile{
@@ -555,6 +563,12 @@ footer{
 
 .proyects-movile{
 		display: none;
+}
+.contenedor-movil{
+background: #EB5757;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 @media (max-width: 991px) { 
