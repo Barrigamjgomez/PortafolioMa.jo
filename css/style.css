@@ -885,8 +885,7 @@ footer{
   }
   li .img-pro{
     font-size: 60px;
-    margin-top: 60vh;
-    
+    margin-top: 60vh;   
     text-align: center;
   }
 
@@ -898,6 +897,33 @@ footer{
   }
   .img-pro:hover{
      margin-top: 10px; 
+  }
+  #habilidades-ico .ico-habilidades{
+    display: inline;
+
+
+  }
+  .ico-2{
+    padding: 5vh;
+  }
+  .ico-habilidades{
+    display: inline;
+    
+    text-align: center;
+    font-size: 15vh;
+    width: 80vh;
+  }
+  .contenedor-ico{
+
+    margin-top: 60vh;
+    margin-left: 50vh;
+  }
+  li .ico-habilidades{
+    display: inline;
+    font-size: 20vh;
+    width: 1vh;
+    height: 10vh;
+    float: left;
   }
   .fa-github{
     font-size: 20px;
