@@ -372,7 +372,7 @@ li {
 	height: 700px;
 	width: 90%;
     margin-left: auto;
-    margin-top: 10vh;		
+    margin-top: 2vh;		
 }	
 
 
@@ -545,11 +545,6 @@ footer{
 }
 
 .home-movile{
-		display: none;
-    height:100vh;
-    background: #EB5757;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -923,11 +918,17 @@ background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, 
   }
 
   .cont-icons{
-    margin-left: 130px;
+    text-align: center;
   }
   .cont-icons li{
     display: inline-block;
     width: 30px;
   }
 
+}
+.work-two{
+  padding-top:6vh;
+}
+.maria{
+  font-size: 60px;
 }

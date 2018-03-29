@@ -16,9 +16,21 @@ $('#about').on('click', function(){
 })
 $('#btn-main').on('click', function(){
 	$('.prueba').empty();
-
+})
+$('#btn-proyectos').on('click', function(){
+	$('#about').hide();
+	$('#btn-main').hide();
+	
+})
+$('.btn-habilidades').on('click', function(){
+	$('#about').hide();
+	$('#btn-main').hide();
 })
 
+$('.btn-top').on('click', function(){
+	$('#about').show();
+	$('#btn-main').show();
+})
 	$('#cont-home').show();
 	$('#cont-about').hide();
 	$('#cont-hability').hide();
