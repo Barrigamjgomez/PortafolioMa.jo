@@ -545,7 +545,7 @@ footer{
 }
 
 .home-movile{
-
+    display: none;
 }
 
 .about-movile{
@@ -559,14 +559,11 @@ footer{
 .proyects-movile{
 		display: none;
 }
-.contenedor-movil{
-background: #EB5757;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #000000, #EB5757);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.movile-h{
+    display: none;
+  }
 
-}
-
-@media (max-width: 425px) { 
+@media (max-width: 768px) { 
 	#to-top{
 		display: none;
 	}
@@ -602,7 +599,9 @@ background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, 
   .home-movile{
     display: block;
   }
-
+  .movile-h{
+    display: block;
+  }
   .about-movile{
     display: block;
   }
@@ -885,11 +884,19 @@ background: linear-gradient(to bottom, #000000, #EB5757); /* W3C, IE 10+/ Edge, 
     margin:100px 0px 0px 160px;
   }
   li .img-pro{
-    font-size: 40px;
-    margin-top: 60px;
-    padding top: 10em;
+    font-size: 60px;
+    margin-top: 60vh;
+    
+    text-align: center;
   }
+
   .icon-movil{
+     margin-top: 10px; 
+  }
+  .img-pro{
+    margin-top: : 10px;
+  }
+  .img-pro:hover{
      margin-top: 10px; 
   }
   .fa-github{

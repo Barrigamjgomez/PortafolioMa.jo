@@ -1,11 +1,14 @@
 
- $(document).ready(function(){
+$(document).ready(function(){
  		$('#to-top').bind('click', function()
 	{
 		$('body,html').animate({
 			scrollTop: 0}, 
 			2500);
 	});
+ 	if(screen.width >= 768) {
+ 		$('.home-movile').removeClass('invisible');
+ 	}
  })
  //$('#about')click(function(){
 //	$('#menu-lat').hide();
